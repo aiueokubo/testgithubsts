@@ -11,7 +11,7 @@ public class DemoApplication {
 	
 	@GetMapping("/")
 	String home() {
-		return "Hello SpringBoot_test ";
+		return "Hello! SpringBoot_test2 ";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
